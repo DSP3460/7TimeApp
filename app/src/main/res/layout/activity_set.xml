@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.wy.tickto.user_ins.HeadZoomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:background="@drawable/setbg_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_show"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:src="@drawable/setbg"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+            <TextView
+                android:id="@+id/user_use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="用户须知"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/set_01"
+                android:drawablePadding="15dp"/>
+
+            <View
+                android:layout_below="@id/user_use"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/delete_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="清除缓存"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_below="@id/user_use"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/set_03"
+                android:drawablePadding="15dp"/>
+
+            <View
+                android:layout_below="@id/delete_cache"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/alter_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="切换用户"
+                android:textColor="#000"
+                android:textSize="18sp"
+
+                android:layout_below="@id/delete_cache"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/set_02"
+                android:drawablePadding="15dp"/>
+
+            <View
+                android:layout_below="@id/alter_user"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</com.example.wy.tickto.user_ins.HeadZoomScrollView>
